@@ -133,3 +133,13 @@ body{
         background: #808000;
     }
 }
+
+/* Ejercicio 5: Animación menu */
+
+.logo:hover,
+.nav:hover,
+.social:hover{
+    transition-duration: 0.5s;
+    transform: scale(1.2);
+    background: #FF0080;
+}
