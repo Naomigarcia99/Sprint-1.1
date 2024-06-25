@@ -115,3 +115,21 @@
         flex-direction: column;
     }
 }
+
+/* Ejercicio 4: Cambiar color fondo */
+
+body{
+    background: grey;
+}
+
+@media all and (max-width: 768px){
+   body{
+        background: #800000;
+    }
+}
+
+@media all and (max-width: 576px){
+   body{
+        background: #808000;
+    }
+}
