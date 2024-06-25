@@ -107,3 +107,11 @@
         width: 90%;
     }
 }
+
+/* Ejercicio 3: Movil */
+
+@media all and (max-width: 576px){
+    .articulos{
+        flex-direction: column;
+    }
+}
