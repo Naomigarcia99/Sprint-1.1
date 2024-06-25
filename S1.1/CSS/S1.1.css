@@ -90,3 +90,20 @@
             background: #e6af2e;
             width: 100%;
         }
+        
+/* Ejercicio 2: Tablet*/
+    
+@media all and (max-width: 768px){
+    .section{
+        flex-direction: column;
+    }
+    .menu{
+        flex-direction: column;
+        height: auto;
+    }
+    .logo,
+    .nav,
+    .social{
+        width: 90%;
+    }
+}
